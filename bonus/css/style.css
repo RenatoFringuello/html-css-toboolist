@@ -1,0 +1,184 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #f6f8f9;
+    font-family: sans-serif;
+    color:#444851;
+}
+
+ul{
+    list-style-type: none;
+    /* padding-left: 1rem; */
+}
+li{
+    font-size: 1.2rem;
+    padding: 0.87rem 0rem;
+}
+
+/* main header */
+#main-header{
+    position: relative;
+    background-color: white;
+    padding:0.6rem 1.5rem;
+}
+#main-header img{
+    height: 4rem;
+}
+#main-header .brand-name{
+    font-size: 3.1rem;
+    font-weight: bold;
+    margin-left: 0.3rem;
+    line-height: 4rem;
+    vertical-align: top;
+    color:black;
+}
+.right{
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    margin-right: 4rem;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0 ,-50%);
+    font-size: 1.5rem;
+}
+
+main{
+    padding: 3.1rem 0;
+}
+
+/* button */
+button{
+    background: none;
+    padding:0.5rem 0.8rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+/* button filled */
+button.filled{
+    border: 2px solid #47adf1;
+    background-color: #47adf1;
+    color:white;
+}
+button.filled:hover{
+    border: 2px solid #69bdea;
+    background-color: #69bdea;
+}
+button.filled:active{
+    border: 2px solid #2387bd;
+    background-color: #2387bd;
+}
+/* button border */
+button.border{
+    border: 2px solid #d2d3d4;
+    color: #d2d3d4;
+}
+button.border:hover{
+    border: 2px solid #d2d3d4;;
+    color: #444851;
+    background-color: #d2d3d4;
+}
+button.border:active{
+    border: 2px solid #969798;;
+    color: #23252a;
+    background-color: #969798;
+}
+/* button theme */
+button.theme{
+    background-color: #a1a1a1;
+    border: 2px solid #a1a1a1;
+    color:#f6f8f9;
+}
+button.theme:hover{
+    background-color: #f6f8f9;
+    border: 2px solid #f6f8f9;
+    color:#ddbf16;
+}
+button.theme:active{
+    background-color: #d3d4d5;
+    border: 2px solid #d3d4d5;
+    color:#ac9510;
+}
+
+/* content */
+.content{
+    width: 61rem;
+    margin: 0 auto;
+    padding: 1rem 3.5rem 0.5rem;
+    background-color: white;
+    margin-bottom: 0.2rem;
+}
+header.content{
+    border-radius: 5px 5px 0 0;
+}
+section.content{
+    padding-top: 2rem;
+    border-radius: 0 0 5px 5px;
+}
+
+/* custon list */
+.list-title{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* radio "button" */
+.radio{
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    text-align: center;
+    vertical-align: top;
+    font-size: 0.8rem;
+}
+.color-red{
+    color: #eb4c42;
+    border-color: #eb4c42;
+}
+.color-green{
+    color: #72c5b1;
+    border-color: 72c5b1;
+}
+
+/* ellipse message */
+.ellipse{
+    border-radius: 0.8rem;
+    padding:0.5rem 1rem;
+    color:white;
+    font-size: 0.7rem;
+}
+.bg-lightblue{
+    background-color: #45abea;
+}
+.bg-green{
+    background-color: #64c0a9;
+}
+.bg-orange{
+    background-color: #f29e33;
+}
+.bg-purple{
+    background-color: #9c72e4;
+}
+.bg-magenta{
+    background-color: #d863a1;
+}
+.bg-lime{
+    background-color: #b0c926;
+}
+.hide{
+    display: none;
+}
