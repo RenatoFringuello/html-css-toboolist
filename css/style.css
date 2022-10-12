@@ -27,6 +27,10 @@ li{
     background-color: white;
     padding:0.6rem 1.5rem;
 }
+/* 
+soluzione alternativa
+dare il vertical align all' img e al brand
+ */
 #main-header img{
     height: 4rem;
 }
@@ -84,6 +88,11 @@ section.content{
 }
 
 /* radio "button" */
+
+/* soluz alt
+    no text-align e vertical align
+    si padding font-size
+*/
 .radio{
     display: inline-block;
     border: 2px solid;
